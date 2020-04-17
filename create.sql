@@ -22,5 +22,5 @@ CREATE TABLE Criminal (
 	armed VARCHAR(20),
 	age NUMBER(3, 0) NOT NULL,
 	city_id NUMBER(10, 0) NOT NULL,
-	gender_name VARCHAR(6) NOT NULL,
+	gender_name VARCHAR(6) NOT NULL
 );
