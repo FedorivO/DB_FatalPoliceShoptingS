@@ -22,8 +22,3 @@ FROM criminal
 GROUP BY  EXTRACT(YEAR FROM criminal.date_)
 
 ORDER BY EXTRACT(YEAR FROM criminal.date_);
-
-
-
-
-
