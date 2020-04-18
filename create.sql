@@ -7,14 +7,14 @@ CREATE TABLE State (
 CREATE TABLE City (
 	state_name VARCHAR(20) NOT NULL REFERENCES State(state_name),
 	city_id NUMBER(10, 0) NOT NULL PRIMARY KEY,
-	city_name VARCHAR(20) NOT NULL,
-	state_name VARCHAR(20) NOT NULL
+	city_name VARCHAR(20) NOT NULL
+	
 );
 
 
 
 CREATE TABLE Criminal (
-	city_name VARCHAR(20) NOT NULL REFERENCES City(city_id, city_name, state_name),
+	city_name VARCHAR(20) NOT NULL REFERENCES City(city_name),
 	shoot_id NUMBER(10, 0) NOT NULL,
 	name VARCHAR(20) NOT NULL,
 	date_ DATE,
