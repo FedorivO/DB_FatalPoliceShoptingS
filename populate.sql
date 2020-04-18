@@ -11,49 +11,49 @@ INSERT INTO City (city_id, city_name, state_name) VALUES ('-106.501349395577	31.
 
 -- POPULATE CRIMINAL
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 8, 'Matthew Hoffman', 20150104,	'shot', 'toy weapon',	32,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 8, 'Matthew Hoffman', '2015-01-04',	'shot', 'toy weapon',	32,	'-122.4138641	37.7791185', 'M');
 INSERT INTO Criminal (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 182, 'Amilcar Perez-Lopez', 20150226,	'shot', 'knife',	21,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 182, 'Amilcar Perez-Lopez', '2015-02-26',	'shot', 'knife',	21,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 221, 'Alice Brown', 20150317,	'shot', 'vehicle',	24,	'-122.4138641	37.7791185', 'F');
+VALUES ('San Francisco', 221, 'Alice Brown', '2015-03-17',	'shot', 'vehicle',	24,	'-122.4138641	37.7791185', 'F');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 922, 'Herbert Benitez', 20151015,	'shot', 'gun',	27,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 922, 'Herbert Benitez', '2015-10-15',	'shot', 'gun',	27,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 998, 'Javier Lopez Garcia', 20151111,	'shot', 'gun',	25,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 998, 'Javier Lopez Garcia', '2015-11-11',	'shot', 'gun',	25,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 1052, 'Mario Woods', 20151202,	'shot', 'knife',	26,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 1052, 'Mario Woods', '2015-12-02',	'shot', 'knife',	26,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 1443, 'Luis Gongora', 20160407,	'shot', 'knife',	45,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 1443, 'Luis Gongora', '2016-04-07',	'shot', 'knife',	45,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 1548, 'Jessica Nelson-Williams', 20160519,	'shot', 'unarmed',	29,	'-122.4138641	37.7791185', 'F');
+VALUES ('San Francisco', 1548, 'Jessica Nelson-Williams', '2016-05-19',	'shot', 'unarmed',	29,	'-122.4138641	37.7791185', 'F');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 1970, 'Nicholas McWherter', 20161014,	'shot', 'gun',	26,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 1970, 'Nicholas McWherter', '2016-10-14',	'shot', 'gun',	26,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 2556, 'Nicholas Flusche', 20170503,	'shot', 'knife',	26,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 2556, 'Nicholas Flusche', '2017-05-03',	'shot', 'knife',	26,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 2603,'John Eno', 20170523,	'shot', 'gun',	59,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 2603,'John Eno', '2017-05-23',	'shot', 'gun',	59,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 2975, 'Damien Murray', 20170924,	'shot', 'gun',	39,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 2975, 'Damien Murray', '2017-09-24',	'shot', 'gun',	39,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 3176, 'Keita O Neil', 20171201,	'shot', 'unarmed',	42,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 3176, 'Keita O Neil', '2017-12-01',	'shot', 'unarmed',	42,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 3478, 'Jesus Delgado-Duarte', 20180306,	'shot', 'gun',	19,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 3478, 'Jesus Delgado-Duarte', '2018-03-06',	'shot', 'gun',	19,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 3534,'Jehad Eid', 20180321,	'shot', 'gun',	21,	'-122.4138641	37.7791185', 'M');
+VALUES ('San Francisco', 3534,'Jehad Eid', '2018-03-21',	'shot', 'gun',	21,	'-122.4138641	37.7791185', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 325, 'Andy Martinez', 20150109,	'shot', 'gun',	33, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 325, 'Andy Martinez', '2015-01-09',	'shot', 'gun',	33, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 424, 'Erick Emmanuel Sanchez',	20150430,	'shot and Tasered', 'metal object',	22, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 424, 'Erick Emmanuel Sanchez',	'2015-04-30',	'shot and Tasered', 'metal object',	22, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 469, 'David Alejandro Gandara', 20150521,	'shot', 'gun',	22, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 469, 'David Alejandro Gandara', '2015-05-21',	'shot', 'gun',	22, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 737, 'Charles Bertram', 20150806,	'shot', 'gun',	22, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 737, 'Charles Bertram', '2015-08-06',	'shot', 'gun',	22, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 1250, 'Hector Leroy', 20160204,	'shot', 'gun',	43, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 1250, 'Hector Leroy', '2016-02-04',	'shot', 'gun',	43, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 1466, 'Eric John Wilson', 20160417,	'shot', 'gun',22, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 1466, 'Eric John Wilson', '2016-04-17',	'shot', 'gun',22, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 1844, 'Arthur R. Williams', 20160509,	'shot', 'gun',	33, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 1844, 'Arthur R. Williams', '2016-05-09',	'shot', 'gun',	33, '-106.501349395577	31.8111305', 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('El Paso', 3101, 'Jorge Hidalgo', 20171103,	'shot', 'gun',	43, '-106.501349395577	31.8111305', 'M');
+VALUES ('El Paso', 3101, 'Jorge Hidalgo', '2017-11-03',	'shot', 'gun',	43, '-106.501349395577	31.8111305', 'M');
 
