@@ -17,12 +17,11 @@ ORDER BY criminal.city_name;
 
 --QUERY 3
 
-SELECT YEAR(date_),
-    COUNT(criminal.city_name)
+SELECT EXTRACT(YEAR FROM criminal.date_),COUNT(criminal.city_name)
 FROM criminal
-GROUP BY YEAR(date_)
-ORDER BY YEAR(date_);
+GROUP BY  EXTRACT(YEAR FROM criminal.date_)
 
+ORDER BY EXTRACT(YEAR FROM criminal.date_);
 
 
 
