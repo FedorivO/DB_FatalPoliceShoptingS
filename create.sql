@@ -6,7 +6,6 @@ CREATE TABLE State (
 
 CREATE TABLE City (
   state_name VARCHAR(20) NOT NULL REFERENCES State(state_name),
-  city_id varchar(50) NOT NULL PRIMARY KEY,
   city_name VARCHAR(20) NOT NULL,
   CONSTRAINT city_unique UNIQUE (city_name)
 );
@@ -21,6 +20,5 @@ CREATE TABLE Criminal (
   manner_of_death VARCHAR(50),
   armed VARCHAR(50),
   age NUMBER(3, 0) NOT NULL,
-  city_id varchar(50) NOT NULL,
   gender_name VARCHAR(6) NOT NULL
 );
