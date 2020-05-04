@@ -32,8 +32,8 @@ INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, 
 VALUES ('San Francisco', 2556, 'Nicholas Flusche', '03-05-17',	'shot', 'knife',	26, 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, gender_name)
 VALUES ('San Francisco', 2603,'John Eno', '23-05-17',	'shot', 'gun',	59,'M');
-INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, city_id, gender_name)
-VALUES ('San Francisco', 2975, 'Damien Murray', '24-09-14',	'shot', 'gun',	39,	'-122.4138641	37.7791185', 'M');
+INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, gender_name)
+VALUES ('San Francisco', 2975, 'Damien Murray', '24-09-14',	'shot', 'gun',	39, 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, gender_name)
 VALUES ('San Francisco', 3176, 'Keita O Neil', '01-12-17',	'shot', 'unarmed',	42, 'M');
 INSERT INTO CRIMINAL (city_name, shoot_id, name, date_, manner_of_death, armed, age, gender_name)
